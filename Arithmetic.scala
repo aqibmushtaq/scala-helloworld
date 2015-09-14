@@ -11,5 +11,16 @@ object Arithmetic {
     }
     println(addThree(10))
 
+    def addFour(n: Int): Int = {
+      var ans : Int = n
+      ans += 1
+      ans += 1
+      ans += 1
+      ans += 1
+      ans
+    }
+    println(addFour(10))
+
+
   }
 }
