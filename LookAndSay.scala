@@ -13,7 +13,6 @@ object LookAndSay {
     yield group.size + "" + group(0)
 
     return List(n) ++ generate(i - 1, newN.mkString)
-    // return List(newN.mkString) ++ generate(i - 1, newN.mkString)
   }
 
 }
